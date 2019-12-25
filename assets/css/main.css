@@ -2725,13 +2725,15 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75em 0.75em;
+			vertical-align: middle;
 		}
 
 		table th {
 			font-size: 0.9em;
 			font-weight: 400;
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			padding: 0.5em 0.75em 0.5em 0.75em;
+			vertical-align: middle;
+			text-align: center;
 		}
 
 		table thead {
@@ -2790,6 +2792,10 @@ input, select, textarea {
 
 	table.alt tbody tr td {
 		border-color: rgba(255, 255, 255, 0.35);
+	}
+
+	.table-gray {
+		background-color: #f8f8f8;
 	}
 
 /* Features */
@@ -3557,7 +3563,7 @@ input, select, textarea {
 		}
 
 			#main table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(222, 222, 222, 0.25);
+/*				background-color: rgba(222, 222, 222, 0.25); */
 			}
 
 		#main table th {
