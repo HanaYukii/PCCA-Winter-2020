@@ -103,7 +103,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url(images/overlay.png), linear-gradient(45deg, #4d5693 15%, #769de3 85%)
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -125,7 +125,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: Microsoft JhengHei;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
